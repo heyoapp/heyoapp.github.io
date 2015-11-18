@@ -1,0 +1,312 @@
+/**
+* reset
+*/
+body, header, section, footer, ul, p, img{
+    margin: 0;
+    padding: 0;
+}
+/**
+* global
+*/
+body {
+    background-color: #22222a;
+}
+body header, body section, body footer {
+    width: 100%;
+    min-width: 960px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+/**
+* header
+*/
+body header {
+    background: url('../images/header/img01.png') repeat;
+    height: 640px;
+
+}
+header .wrapper {
+    height: 640px;
+}
+header .active {
+    color: #00a27d;
+}
+nav {
+    height: 20px;
+    padding-top: 50px;
+}
+ul {
+    list-style: none;
+    height: 20px;
+    margin-right: 1px;
+    display: inline-block;
+    float: right;
+}
+ul li {
+    float: left;
+    margin-left: 50px;
+}
+ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'MicrosoftYaHei';
+}
+ul li a:active {
+    color: #00a27d;
+}
+ul li a:hover {
+    color: #00a27d;
+}
+header .wrapper .content {
+    height: 550px;
+    margin-top: 92px;
+}
+header .left {
+    width: 418px;
+    height: 550px;
+    float: left;
+}
+header .left .back {
+    width: 139px;
+    height: 550px;
+    float: left;
+    padding-top: 45px;
+
+}
+header .left .front {
+    width: 256px;
+    height: 550px;
+    float: left;
+}
+
+header .middle {
+    width: 126px;
+    height: 550px;
+    float: left;
+}
+header .right {
+    width: 407px;
+    height: 550px;
+    float: left;
+}
+header .right .part1 {
+    height: 100px;
+    margin-bottom: 40px;
+}
+header .right .part1 .left {
+    width: 80px;
+    height: 96px;
+    height: 96px;
+}
+header .right .part1 .middle {
+    width: 40px;
+    height: 96px;
+}
+header .right .part1 .right {
+    width: 287px;
+    height: 96px;
+}
+header .right .part1 .right .part1 {
+    height: 40px;
+}
+header .right .part1 .right .part2 p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'YentiEG Light';
+    margin-top: 28px;
+    line-height: 28px;
+}
+header .right .part2 p{
+    font-size: 24px;
+    color: #d9deda;
+    font-family: 'YentiEG Light';
+    line-height: 48px;
+}
+header .right .part3 {
+    height: 150px;
+    position: relative;
+    top: 110px;
+}
+header .right .part3 .left {
+    width: 125px;
+    height: 150px;
+}
+header .right .part3 .middle {
+    width: 50px;
+    height: 150px;
+}
+header .right .part3 .right {
+    width: 125px;
+    height: 150px;
+}
+/**
+* section1
+*/
+.section1, .section2, .section3, .section4, .section5{
+    position: relative;
+    height: 700px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: -75px;
+
+
+}
+.description {
+    width: 40%;
+    height: 600px;
+    float: left;
+    padding-top: 280px;
+}
+.description .part1 {
+    width: 250px;
+    height: 77px;
+    margin-left: 110px;
+}
+.description .part1 .left {
+    height: 77px;
+    float: left;
+    margin-top: 50px;
+}
+.description .part1 .left p {
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 45px;
+    color: #00a27d;
+
+}
+.description .part1 .middle {
+    width: 50px;
+    height: 77px;
+    float: left;
+}
+.description .part1 .right {
+    width: 78px;
+    float: left;
+}
+.description .part2 {
+    padding-top: 50px;
+    margin-left: 110px;
+    width: 220px;
+}
+.description .part2 p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'YentiEG Light';
+    line-height: 28px;
+}
+.icon {
+    width: 20%;
+    height: 600px;
+    float: left;
+    margin-top: 40px;
+}
+.screenshot {
+    width: 40%;
+    height: 600px;
+    float: left;
+    margin-top: 280px;
+}
+/**
+* section2
+*/
+.section2 .description .part2 {
+    width: 200px;
+}
+.section2 .screenshot {
+    margin-top: 180px;
+}
+.section2 .description .part1 .right {
+    margin-top: 10px;
+}
+/**
+* section3
+*/
+.section3 .description .part2 {
+
+    width: 255px;
+}
+.section3 .description .part1 .right {
+    margin-top: 10px;
+}
+.section3 .screenshot {
+    margin-top: 200px;
+}
+.section3 .screenshot img{
+    position: relative;
+    right: 100px;
+}
+/**
+* section4
+*/
+.section4 .description .part1 .right {
+    margin-top: 20px;
+}
+.section4 .screenshot {
+    margin-top: 240px;
+}
+.section4 .screenshot .part1 {
+    width: 100px;
+    float: left;
+}
+.section4 .screenshot .part2 {
+    margin-top: 140px;
+    width: 70px;
+    float: left;
+}
+.section4 .screenshot .part3 {
+    margin-top: 210px;
+    width: 70px;
+    float: left;
+}
+.section4 .screenshot .part4{
+    margin-top: 280px;
+    width: 70px;
+    float: left;
+}
+/**
+* section5
+*/
+.section5 .description .part1 {
+    width: 250px;
+    margin-left: 60px;
+}
+.section5 .description .part2 {
+    margin-left: 60px;
+}
+.section5 .description .part3 {
+    margin-left: 60px;
+}
+.section5 .description .part1 .left {
+    margin-top: 50px;
+}
+/**
+* footer
+*/
+footer {
+    position: relative;
+    height: 609px;
+    margin-top: 200px;
+
+
+}
+footer img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+footer p {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    color: #5c5c5c;
+    left: 40%;
+
+    bottom: 50px;
+}
+.scolltop:hover {
+    content: url('../images/scrolltop-press.png');
+}
