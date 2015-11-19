@@ -283,6 +283,9 @@ header .right .part3 .right {
 .section5 .description .part1 .left {
     margin-top: 50px;
 }
+.section5 .screenshot {
+    margin-top: 185px;
+}
 /**
 * footer
 */
@@ -305,7 +308,20 @@ footer p {
     color: #5c5c5c;
     left: 40%;
 
-    bottom: 50px;
+    bottom: 86px;
+}
+footer .p2 {
+    margin-left: 30px;
+}
+footer .p3 {
+bottom: 50px;
+}
+footer .p4 {
+    margin-left: 175px;
+}
+footer .p4 a {
+    color: #5c5c5c;
+    text-decoration: none;
 }
 .scolltop:hover {
     content: url('../images/scrolltop-press.png');
