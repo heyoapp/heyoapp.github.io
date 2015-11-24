@@ -10,6 +10,7 @@ body, header, section, footer, ul, p, img{
 */
 body {
     background-color: #22222a;
+    width: 100%;
 }
 body header, body section, body footer {
     width: 100%;
@@ -309,6 +310,14 @@ footer p {
     left: 40%;
 
     bottom: 86px;
+}
+@media screen and (min-width: 800px) {
+    footer p {
+
+        left: 20%;
+
+
+    }
 }
 footer .p2 {
     margin-left: 30px;
